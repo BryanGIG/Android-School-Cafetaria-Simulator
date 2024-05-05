@@ -1,9 +1,7 @@
 #include "CBaseEntry.hpp"
 
-/*
- * This file is just sample, you can modify this
- */
-class ExampleEntry : public CBaseEntry {
+
+class GameManager : public CBaseEntry {
 public:
     const char *getAssembly() override;
 

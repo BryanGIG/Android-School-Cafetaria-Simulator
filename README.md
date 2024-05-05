@@ -27,19 +27,19 @@ Note: Modify "**template**" to your library name
 
 - #### [Android-Ptrace-Injector - reveny](https://github.com/reveny/Android-Ptrace-Injector)
 ```bash
-./Injector -p "com.target.package" -l "template"
+./Injector -p "com.target.package" -l "bryangig"
 ```
 
 - #### [System.loadLibrary](https://docs.oracle.com/javase/8/docs/api/java/lang/System.html#loadLibrary-java.lang.String)
 ```java
-const-string v0, "template"
+const-string v0, "bryangig"
 
 invoke-static {v0}, Ljava/lang/System;->loadLibrary(Ljava/lang/String;)V
 ```
 
 - #### [xDL - hexhacking](https://github.com/hexhacking/xDL)
 ```c
-void* handle = xdl_open("template", RTLD_NOW);
+void* handle = xdl_open("bryangig", RTLD_NOW);
 ```
 
 - #### Other methods
